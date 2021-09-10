@@ -15,7 +15,12 @@
 */
 
 //CODE HERE
-
+const me = {
+  firstName : "Anto",
+  state : "Ohio",
+  age : 31,
+  greeter :
+}
 
 
 
