@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = "Git is a version control system that allows you to roll back your code to previously commited versions."
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = "GitHub is a website that gives programmers a place to push their code, for storage purposes."
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,6 +34,10 @@
 */
 
 //CODE HERE
+const init = {
+    description : "A way to start a new git repository",
+    code : "git init"
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +46,10 @@
 */
 
 //CODE HERE
+const clone = {
+    description : "A way to clone a repository so you can continue working on it from multiple machines.",
+    code : "git clone - url"
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +58,10 @@
 */
 
 //CODE HERE
+const status = {
+    description : "Shows the staging area.  Which files are, and are not being tracked",
+    code : "git status"
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +70,10 @@
 */
 
 //CODE HERE
+const add = {
+    description : "Adds files from the current directory to the staging area.  Allowing for commits, and pushes",
+    code : "git add filename.ext (or 'git add .' to add current directory"
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,7 +82,10 @@
 */
 
 //CODE HERE
-
+const commit = {
+    description : "A way to 'save' changes to the files in the staging area, also allows for descriptive messages",
+    code : "git commit -m 'commit message' "
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +94,7 @@
 */
 
 //CODE HERE
+const push = {
+    description : "A command to upload your local repository to a remote repository.  IE - local repo to GitHub",
+    code : "git push -u origin main"
+}
