@@ -52,9 +52,9 @@
 function carFactory(make, model, year){
 
   const car = {
-    make: "Chevy",
-    model: "Cruze",
-    year: 2014
+    make: make,
+    model: model,
+    year: year
   }
 
   if(year > 2018) {
@@ -65,4 +65,4 @@ function carFactory(make, model, year){
 
   return car
 
-}console.log(carFactory("Chevy", "Cruze", 2014))
+}console.log(carFactory("Chevy", "Cruze", 2020))
