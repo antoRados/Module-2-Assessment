@@ -15,13 +15,12 @@
 */
 
 //CODE HERE
-const me = {
-  firstName : "Anto",
-  state : "Ohio",
-  age : 31,
-  greeter :
-}
-
+// const me = {
+//   firstName : "Anto",
+//   state : "Ohio",
+//   age : 31,
+//   greeter : `Hello!  My name is ${firstName} and I live in ${state}`
+// }
 
 
 
@@ -50,3 +49,20 @@ const me = {
 */
 
 //CODE HERE
+function carFactory(make, model, year){
+
+  const car = {
+    make: "Chevy",
+    model: "Cruze",
+    year: 2014
+  }
+
+  if(year > 2018) {
+    car.isNew = true;
+  } else {
+    car.isNew = false
+  }
+
+  return car
+
+}console.log(carFactory("Chevy", "Cruze", 2014))
