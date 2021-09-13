@@ -15,13 +15,20 @@
 */
 
 //CODE HERE
-// const me = {
-//   firstName : "Anto",
-//   state : "Ohio",
-//   age : 31,
-//   greeter : `Hello!  My name is ${firstName} and I live in ${state}`
-// }
+const me = {
+  firstName : "Anto",
+  state : "Ohio",
+  age : 31,
 
+}
+
+function greeter(firstName, state, age){
+  return(`Hello!  My name is ${firstName} and I live in ${state}`)
+}
+console.log(greeter("Anto", "Ohio"))
+// I'm not sure if I understood the question incorrectly or not, but this is how I understood it.  I was
+// confused about the greeter portion - a method, to my understanding, is a function within an object.
+// I couldn't get the function to work within the 'me' object so I moved it outside.
 
 
 //////////////////PROBLEM 2////////////////////
